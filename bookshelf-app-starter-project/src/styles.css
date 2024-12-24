@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: hsl(249, 92%, 62%);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #6045f7;
+    margin-top: 0;
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background-color:  #6045f7;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  form button:hover {
+    background-color: #6045f7;
+  }
+  
+  #incompleteBookList, #completeBookList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  #incompleteBookList div, #completeBookList div {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  h3 {
+    margin: 0;
+    color: #6045f7;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  button {
+    background-color: #6045f7;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #00164d;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  @media (max-width: 600px) {
+    form input, form button {
+      width: 100%;
+    }
+  
+    #incompleteBookList div, #completeBookList div {
+      max-width: 100%;
+    }
+  }
+  
